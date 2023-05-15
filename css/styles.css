@@ -1,10 +1,24 @@
 body {
-  max-width: 320px;
+  max-width: 380px;
   margin: auto;
+  color: #fff;
   background: #ddd;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+header {
+  background: #27160e;
+  text-transform: uppercase;
+}
+
+main {
+  background: #3f291d;
+}
+
+footer {
+  background: #27160e;
 }
