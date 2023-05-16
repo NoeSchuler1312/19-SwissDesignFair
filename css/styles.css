@@ -1,8 +1,31 @@
+@font-face {
+  font-family: 'helveticaregular';
+  src: url('helvetica.woff2') format('woff2'),
+       url('helvetica.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'helveticabold';
+  src: url('helvetica-bold.woff2') format('woff2'),
+       url('helvetica-bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 380px;
   margin: auto;
   color: #fff;
-  background: #ddd;
+  background: #636363;
+  font-family: 'helvetica', sans-serif;
 }
 
 img {
@@ -11,8 +34,57 @@ img {
 }
 
 header {
-  background: #27160e;
   text-transform: uppercase;
+}
+
+header p {
+  font-size: 43px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+
+nav {
+  background: #27160e;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 7px;
+}
+
+nav strong {
+  font-weight: 700;
+  margin: 0 20px 0 0;
+}
+
+.container-title-header {
+  background-image: url(../img/lounge-bg.jpg);
+}
+
+h1 {
+  font-size: 78px;
+  font-weight: 700;
+  line-height: 67px;
+  margin: 0;
+  padding: 10px 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 main {
