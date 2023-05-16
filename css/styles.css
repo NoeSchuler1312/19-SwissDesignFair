@@ -85,7 +85,7 @@ h2 {
   text-transform: uppercase;
   font-size: 25px;
   font-weight: 700;
-  padding: 0 16px;
+  padding: 70px 0 0 16px;
 }
 
 main {
@@ -148,6 +148,38 @@ main p {
 	to {
 		transform: translateX(calc(-380px * 4));
 	}
+}
+
+ul {
+  list-style-type: "✦";
+  line-height: 23px;
+}
+
+li {
+  padding: 0 0 0 10px;
+}
+
+.container-title-main {
+  background-image: url(../img/gagarine-bg.jpg);
+  padding: 0 0 60px 0;
+}
+
+.container-title-main h3 {
+  font-size: 78px;
+  font-weight: 700;
+  line-height: 67px;
+  margin: 0;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+.container-expo {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.container-expo img {
+  max-height: 430px;
 }
 
 footer {
