@@ -24,7 +24,7 @@ body {
   max-width: 380px;
   margin: auto;
   color: #fff;
-  background: #636363;
+  background: #000;
   font-family: 'helvetica', sans-serif;
 }
 
@@ -44,10 +44,8 @@ header p {
   text-align: center;
 }
 
-nav {
-  background: #27160e;
-  position: sticky;
-  top: 0;
+header nav {
+  background: #3F3428;
 }
 
 nav a {
@@ -59,7 +57,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ad823c;
+  color: #A2917B;
 }
 
 .container-nav {
@@ -71,6 +69,10 @@ nav a:hover {
 nav strong {
   font-weight: 700;
   margin: 0 20px 0 0;
+}
+
+nav strong:hover {
+  color: #fff;
 }
 
 .container-title-header {
@@ -89,12 +91,12 @@ h2 {
   text-transform: uppercase;
   font-size: 25px;
   font-weight: 700;
-  padding: 70px 0 16px 16px;
+  padding: 70px 0 10px 16px;
   margin: 0;
 }
 
 main {
-  background: #3f291d;
+  background: #A2917B;
 }
 
 main p {
@@ -161,6 +163,8 @@ main p {
 ul {
   list-style-type: "✦";
   line-height: 23px;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 li {
@@ -173,12 +177,22 @@ li {
 }
 
 .container-expo {
-  display: flex;
-  flex-flow: row wrap;
+  background-image: url(../img/expo-bg.jpg);
+  padding: 40px 0 20px 0;
 }
 
-.section-expo img {
-  max-height: 430px;
+.container-expo img {
+  max-height: 500px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.container-expo p {
+  margin: auto;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .section-expo a {
@@ -187,8 +201,8 @@ li {
 }
 
 .section-expo a:hover {
-  color: #ad823c;
-  text-decoration: underline solid 1px #ad823c;
+  color: #A2917B;
+  text-decoration: underline solid 1px #A2917B;
 }
 
 .section-expo strong {
@@ -226,7 +240,7 @@ h3 {
 }
 
 footer {
-  background: #27160e;
+  background: #3F3428;
 }
 
 footer p {
@@ -241,15 +255,30 @@ footer a {
   text-align: center;
   color: #fff;
   text-decoration: underline solid 1px #fff;
-  padding: 0 5px 43px;
+  padding: 0 5px 40px;
 }
 
 footer a:hover {
-  color: #ad823c;
-  text-decoration: underline solid 1px #ad823c;
+  color: #A2917B;
+  text-decoration: underline solid 1px #A2917B;
 }
 
 .container-footer {
   display: flex;
   justify-content: center;
+}
+
+footer img {
+  max-width: 70px;
+  padding: 0;
+  margin: 10px 10px 15px;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  padding: 0;
 }
